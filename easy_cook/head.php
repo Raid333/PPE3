@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>TMPS00042</title>
+<title>Easy-Cook</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
@@ -34,7 +34,7 @@
         <li><a href="index.php">Accueil</a></li>
         <li class="current"> <a href="page.php">Les recettes </a>
           <ul>
-            <li> <a href="#">Les entrées </a> </li>
+            <li> <a href="entree.php">Les entrées </a> </li>
             <li > <a href="#">Les plats</a></li>
             <li> <a href="#">Les desserts</a></li>
             <li> <a href="#">Postez votre recette</a></li>
