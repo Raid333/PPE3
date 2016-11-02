@@ -32,24 +32,16 @@
   <div class="menu"> <img src="images/menu-left.png" alt="image"/>
     	<ul class="sf-menu" id="example">
         <li><a href="index.php">Accueil</a></li>
-         <li><a href="about.php">A propos</a></li>
-        <li class="current"> <a href="page.php">Pages </a>
+        <li class="current"> <a href="page.php">Les recettes </a>
           <ul>
-            <li> <a href="#">consectetuer </a> </li>
-            <li class="current"> <a href="#">Nunc dignissim risus id metus.</a>
-              <ul>
-                <li class="current"><a href="#">Cras ornare tristique elit</a></li>
-                <li><a href="#">Ut aliquam sollicitudin leo</a></li>
-                <li><a href="#">Cras iaculis ultricies nulla.</a></li>
-                <li><a href="#">Aliquam tincidunt </a></li>
-                <li><a href="#">vestibulum nulla nec ante</a></li>
-              </ul>
-            </li>
-            <li> <a href="#">Cras iaculis ultricies nulla</a></li>
-            <li> <a href="#">Donec quis dui at</a></li>
+            <li> <a href="#">Les entrées </a> </li>
+            <li > <a href="#">Les plats</a></li>
+            <li> <a href="#">Les desserts</a></li>
+            <li> <a href="#">Postez votre recette</a></li>
           </ul>
         </li>
-        <li> <a href="contact.php">Contact</a> </li>
+         <li><a href="">Les ingrédients</a></li>
+        <li> <a href="about.php">Infos</a> </li>
       </ul>
     <img src="images/menu-right.png" alt="image"/> </div>
 </div>
