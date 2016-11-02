@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>TMPS00042</title>
+<title>Easy-Cook</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
@@ -28,10 +28,9 @@
 <div class="clear"></div>
 <div class="copyright-wrap">
   <div class="copyright">
-    <div class="content">
-      <p>© 2012 All Rights Reserved  | <a href="#" class="link">Privacy Policy</a>&nbsp;&nbsp;
-        Designed by :<a href="www.alltemplateneeds.com."> www.alltemplateneeds.com.</a>&nbsp;&nbsp;
-        Images From:<a href="www.photorack.net" class="link"> www.photorack.net</a></p>
+    <div class="content center1">
+      <p>© 2016 All Rights Reserved &nbsp;&nbsp; | &nbsp;&nbsp;
+        Pour plus d'informations:<a href="contact.php" class="link"> Contact </a></p>
     </div>
   </div>
 </div>
