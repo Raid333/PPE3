@@ -6,7 +6,7 @@
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
-<!---menu--->
+
 <link rel="stylesheet" href="css/superfish.css" media="screen">
 <script src="js/jquery-1.9.0.min.js"></script>
 <script src="js/hoverIntent.js"></script>
@@ -24,35 +24,9 @@
 
 </head>
 <body>
-<div class="header-wrap">
-  <div class="logo">
-    <h1>Sitename</h1>
-  </div>
-  <div class="menu"> <img src="images/menu-left.png" alt="image"/>
-    	<ul class="sf-menu" id="example">
-        <li><a href="index.html">Home</a></li>
-         <li><a href="about.html">About</a></li>
-        <li> <a href="works.html">Works </a> </li>
-        <li class="current"> <a href="page.html">Pages </a>
-          <ul>
-            <li> <a href="#">consectetuer </a> </li>
-            <li class="current"> <a href="#">Nunc dignissim risus id metus.</a>
-              <ul>
-                <li class="current"><a href="#">Cras ornare tristique elit</a></li>
-                <li><a href="#">Ut aliquam sollicitudin leo</a></li>
-                <li><a href="#">Cras iaculis ultricies nulla.</a></li>
-                <li><a href="#">Aliquam tincidunt </a></li>
-                <li><a href="#">vestibulum nulla nec ante</a></li>
-              </ul>
-            </li>
-            <li> <a href="#">Cras iaculis ultricies nulla</a></li>
-            <li> <a href="#">Donec quis dui at</a></li>
-          </ul>
-        </li>
-        <li> <a href="contact.html">Contact</a> </li>
-      </ul>
-    <img src="images/menu-right.png" alt="image"/> </div>
-</div><!---header-wrap--->
+<?php
+  include("head.php");
+?>
 <div class="page">
   <div class="panel">
     <div class="title">
@@ -69,54 +43,6 @@
     </div>
   </div>
 </div>
-<!---page-wrap-end--->
-<div class="footer-wrap">
-  <div class="footer">
-    <div class="panel marRight30">
-      <div class="title">
-        <h1>Nobis est eligendi</h1>
-      </div>
-      <div class="content">
-        <ul>
-          <li><a href="#">Incidunt ut labore et dolore magnam aliq</a></li>
-          <li><a href="#">Vel illum qui dolorem eum fugiat quo </a></li>
-          <li><a href="#">Voluptas sed quia non numquam eius </a></li>
-          <li><a href="#">Modi tempora oluptatum deleniti atque</a></li>
-          <li class="bg-bottom-none"><a href="#">Corrupti quos dolores curusi lorem</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="panel marRight30">
-      <div class="title">
-        <h1>Cisiut aliquid</h1>
-      </div>
-      <div class="content">
-        <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem ldantium, ipsa, quae ab illo inventore veritatis et. Guasi architecto beatae vitae dicta sunt, explicabo.</p>
-        <p>Fusce diam mauris, auctor in cursus eget, malesuada vitae erat. Lorem ajarack ind sominto lorem ipsum,natus error cursus eget, malesuada vitae erat.</p>
-        <div class="button"><a href="#">More</a></div>
-      </div>
-    </div>
-    <div class="panelLost">
-      <div class="title">
-        <h1>Similique sunt in culpa</h1>
-      </div>
-      <div class="content"> <img src="images/image2.jpg" alt="image" />
-        <p>Ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-        <div class="button"><a href="#">More</a></div>
-      </div>
-    </div>
-  </div>
-</div>
-<!---footer-wrap--->
-<div class="clear"></div>
-<div class="copyright-wrap">
-  <div class="copyright">
-    <div class="content">
-      <p>© 2012 All Rights Reserved  | <a href="#" class="link">Privacy Policy</a>&nbsp;&nbsp;
-        Designed by :<a href="www.alltemplateneeds.com."> www.alltemplateneeds.com.</a>&nbsp;&nbsp;
-        Images From:<a href="www.photorack.net" class="link"> www.photorack.net</a></p>
-    </div>
-  </div>
-</div>
-</body>
-</html>
+<?php
+  include("footer.php");
+?>
