@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Accueil</title>
+<title>Easy Cook - Accueil</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
-
+<link rel="icon" href="images/icon.ico" />
 
 <link rel="stylesheet" href="css/superfish.css" media="screen">
 <script src="js/jquery-1.9.0.min.js"></script>

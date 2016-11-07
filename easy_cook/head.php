@@ -7,7 +7,7 @@
 <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+<link rel="icon" href="images/icon.ico" />
 <link rel="stylesheet" href="css/superfish.css" media="screen">
 <script src="js/jquery-1.9.0.min.js"></script>
 <script src="js/hoverIntent.js"></script>
