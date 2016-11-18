@@ -30,9 +30,9 @@
             
         <?php 
         session_start(); 
-        if (!empty($_SESSION['login'])) {
+        if (!empty($_SESSION['pseudo'])) {
         echo '<a href="logout.php">Deconnexion</a>'; echo "&nbsp; &nbsp";
-        echo "Bienvenue : " . $_SESSION['login']; 
+        echo "Bienvenue : " . $_SESSION['pseudo']; 
         
         } else {
             echo '<a href="inscription.php">Inscription</a>'; echo "&nbsp; &nbsp";
