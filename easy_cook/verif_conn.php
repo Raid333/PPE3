@@ -1,3 +1,9 @@
+<?php 
+include("head2.php");
+?>
+
+
+<div class="banner-wrap" align="center">
 <?php
 //session_start();
 //$pseudo = $_POST['pseudo'];
@@ -47,7 +53,8 @@ if ($check_pseudo == '1' || $check_pseudo > '1' && $check_passe == '1' || $check
     header('Location:index.php');
     
 }else {
-    echo "pseudo ou mot de passe non reconnu";
+    echo  '<p style="color:red"> pseudo ou mot de passe non reconnu </p>' ;
+    echo '<a style="color:red" href="connexion.php">Retour à la connexion</a>';
 }
 //Si les champs sont remplis, une requette est envoyé à la base de donnée pour vérifier si le compte existe bien
 //if(($_SESSION["pseudo"] == "") or($_SESSION['passe'] == "")) {
@@ -62,4 +69,8 @@ if ($check_pseudo == '1' || $check_pseudo > '1' && $check_passe == '1' || $check
 //        header("Location:index.php");
 
 
+?>
+</div>
+<?php
+include("footer.php");
 ?>

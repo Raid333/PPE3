@@ -29,9 +29,9 @@
 <div class="copyright-wrap">
   <div class="copyright">
     <div class="content">
-      <p>© 2016 Tous droits réservés  | <a href="#" class="link">Privacy Policy</a>&nbsp;&nbsp;
-        Designed by :<a href="www.alltemplateneeds.com."> www.alltemplateneeds.com.</a>&nbsp;&nbsp;
-        Images From:<a href="www.photorack.net" class="link"> www.photorack.net</a></p>
+      <p>© 2016 Tous droits réservés  | &nbsp;&nbsp;
+        Designed by :<a href="#"> Groupe PEE |</a>&nbsp;&nbsp;
+        <a href="#" class="link"> Easy Cook</a></p>
     </div>
   </div>
 </div>
