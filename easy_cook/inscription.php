@@ -1,15 +1,19 @@
 <?php 
 include("head2.php");
 ?>
+<?php
+session_start();
+
+?>
 <div class="banner-wrap" align="center">
 <form action="verif_inscri.php" method="post">
   <h2><span></span> Inscription </h2>
   <br><br>
-  <input type="text" placeholder="Pseudo" name="pseudo"/>
+  <input type="text" placeholder="Pseudo" name="pseudo" required/>
   <br><br>
-  <input type="text" placeholder="Email" name="mail"/>
+  <input type="text" placeholder="Email" name="mail" required/>
   <br><br>
-  <input type="password" placeholder="Mot de passe" name="passe"/>
+  <input type="password" placeholder="Mot de passe" name="passe" required/>
   <br>
   <input type="submit" value="Valider"/>
 </form>

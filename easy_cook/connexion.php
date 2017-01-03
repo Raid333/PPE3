@@ -1,7 +1,10 @@
 <?php 
 include("head2.php");
 ?>
-
+<?php
+session_start();
+$_SESSION['verif_c'] = 1;
+?>
 
 <div class="banner-wrap" align="center">
 <!--
@@ -24,9 +27,9 @@ include("head2.php");
 <form action="verif_conn.php" method="post">
   <h2><span></span> Connexion </h2>
   <span> </span>
-  <input type="text" placeholder="Pseudo" name="pseudo"/>
+  <input type="text" placeholder="Pseudo" name="pseudo" required/>
   <span></span>
-  <input type="password" placeholder="Mot de passe" name="passe"/>
+  <input type="password" placeholder="Mot de passe" name="passe" required/>
   <input type="submit"/>
 </form>
 </div>

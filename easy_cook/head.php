@@ -26,50 +26,57 @@
     </head>
     <div class="box">
         <div class="panel">
-            
-            
-        <?php 
-        session_start(); 
-        if (!empty($_SESSION['pseudo'])) {
-        echo '<a href="logout.php">Deconnexion</a>'; echo "&nbsp; &nbsp";
-        echo "Bienvenue : " . $_SESSION['pseudo']; 
-        
-        } else {
-            echo '<a href="inscription.php">Inscription</a>'; echo "&nbsp; &nbsp";
-            echo '<a href="connexion.php">Se Connecter</a>';
-        }
-        ?>
-    </div>
-    </div>
-<?php
 
 
-?>
-<div class="header-wrap">
-    <div class="logo">
-        <a href="index.php"><img src="images/easy_cook.png" width="300px" height="250px"></a>
+            <?php 
+            session_start(); 
+            if (!empty($_SESSION['pseudo'])) {
+                echo '<a href="logout.php">Deconnexion</a>'; echo "&nbsp; &nbsp";
+                echo "Bienvenue : " . $_SESSION['pseudo']; 
+
+            } else {
+                echo '<a href="inscription.php">Inscription</a>'; echo "&nbsp; &nbsp";
+                echo '<a href="connexion.php">Se Connecter</a>';
+            }
+            ?>
+        </div>
     </div>
-    <div class="menu"> <img src="images/menu-left.png" alt="image"/>
-        <ul class="sf-menu" id="example">
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="about.php">A propos</a></li>
-            <li class="current"> <a href="page.php">Recettes</a>
-                <ul>
-                    <li> <a href="#">consectetuer </a> </li>
-                    <li class="current"> <a href="#">Nunc dignissim risus id metus.</a>
-                        <ul>
-                            <li class="current"><a href="#">Cras ornare tristique elit</a></li>
-                            <li><a href="#">Ut aliquam sollicitudin leo</a></li>
-                            <li><a href="#">Cras iaculis ultricies nulla.</a></li>
-                            <li><a href="#">Aliquam tincidunt </a></li>
-                            <li><a href="#">vestibulum nulla nec ante</a></li>
-                        </ul>
-                    </li>
-                    <li> <a href="#">Cras iaculis ultricies nulla</a></li>
-                    <li> <a href="#">Donec quis dui at</a></li>
-                </ul>
-            </li>
-            <li> <a href="contact.php">Contact</a> </li>
-        </ul>
-        <img src="images/menu-right.png" alt="image"/> </div>
-</div>
+    <?php
+
+
+    ?>
+    <div class="header-wrap">
+        <div class="logo">
+            <a href="index.php"><img src="images/easy_cook.png" width="300px" height="250px"></a>
+        </div>
+        <div class="menu"> <img src="images/menu-left.png" alt="image"/>
+            <ul class="sf-menu" id="example">
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="compte.php">Mon compte</a>
+                    <ul>
+                        <li class="current"><a href="add_recette.php">Ajouter une recette</a></li>
+                    </ul></li>
+                <li class="current"> <a href="page.php">Recettes</a>
+                    <ul>
+                        <li> <a href="#">Entrée</a> </li>
+                        <li class="current"> <a href="#">Plats</a>
+                            <!--
+<ul>
+<li class="current"><a href="#">Cras ornare tristique elit</a></li>
+<li><a href="#">Ut aliquam sollicitudin leo</a></li>
+<li><a href="#">Cras iaculis ultricies nulla.</a></li>
+<li><a href="#">Aliquam tincidunt </a></li>
+<li><a href="#">vestibulum nulla nec ante</a></li>
+</ul>
+-->
+                        </li>
+                        <li> <a href="#">Desserts</a></li>
+                        <li> <a href="#">A voir</a></li>
+                    </ul>
+                </li>
+                <li> <a href="contact.php">A propos</a> 
+
+                </li>
+            </ul>
+            <img src="images/menu-right.png" alt="image"/> </div>
+    </div>
