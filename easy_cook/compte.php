@@ -25,7 +25,6 @@
     </head>
     <body>
         <?php
-
         include("head.php");    
         if (empty($_SESSION["pseudo"])) {
             header('Location:connexion.php');
@@ -49,6 +48,7 @@
             $sqlMail = 'SELECT * FROM utilisateur WHERE pseudo = "'. $pseudoSession .'" ';
             $rs = mysql_query($sqlMail) or exit(mysql_error());
             $row = mysql_fetch_array($rs);
+            echo "Vous êtes : " . $row['type']. "<br>";
             echo "Votre email : " . $row['mail'] . "<br><br>";
                 ?>
                 <table>
@@ -60,9 +60,9 @@
                         </tr>
                     </form>
                     <form method="post" action="update_acc.php">
-                    <tr>
-                        <td><br></td>
-                    </tr>
+                        <tr>
+                            <td><br></td>
+                        </tr>
                         <tr>
                             <td>Changer de mot de passe : </td>
                             <td><input name='newPassword' type="password" required/></td>

@@ -15,6 +15,7 @@ include("head2.php");
 
 
     //Récupération des données envoyées par l'utilisateur
+    $type = $_POST['type'];
     $pseudo = validate_input($_POST['pseudo']);
     $mail = validate_input($_POST['mail']);
     $passe = validate_input($_POST['passe']);
@@ -33,14 +34,15 @@ include("head2.php");
         echo '<a style="color:red" href="inscription.php">Retour à l inscription</a>';
     }
     //Vérification si les champs sont vide ou non
-    else if(!empty($pseudo) && !empty($mail) && !empty($passe)) {
+    else if(!empty($pseudo) && !empty($mail) && !empty($passe) && $type != "...") {
         $tab = array(
+            'type' => $type,
             'pseudo' => $pseudo,
             'mail' => $mail,
             'passe' => $cryptage);
 
         //Si tous est en ordre, on envoi la requette au serveur pour enregistrer l'utilisateur dans la base de données
-        $requette = "INSERT INTO utilisateur(pseudo, passe, mail) VALUE(:pseudo, :passe, :mail)";
+        $requette = "INSERT INTO utilisateur(type, pseudo, passe, mail) VALUE(:type, :pseudo, :passe, :mail)";
         $sql = $bdd->prepare($requette);
         $sql->execute($tab);
         header('Location:connexion.php');

@@ -29,10 +29,16 @@
 
 
             <?php 
+            $db = @mysql_connect("localhost", "root", "") or die('Error ' . $base . ' : ' . mysql_error());
+            mysql_select_db('base_beta_ec',$db);
+
             session_start(); 
             if (!empty($_SESSION['pseudo'])) {
                 echo '<a href="logout.php">Deconnexion</a>'; echo "&nbsp; &nbsp";
                 echo "Bienvenue : " . $_SESSION['pseudo']; 
+                $requeteType = 'SELECT type FROM utilisateur where pseudo = "'. $_SESSION['pseudo'] .'"';
+                $rq = mysql_query($requeteType);
+                $tab = mysql_fetch_assoc($rq);
 
             } else {
                 echo '<a href="inscription.php">Inscription</a>'; echo "&nbsp; &nbsp";
@@ -41,10 +47,6 @@
             ?>
         </div>
     </div>
-    <?php
-
-
-    ?>
     <div class="header-wrap">
         <div class="logo">
             <a href="index.php"><img src="images/easy_cook.png" width="300px" height="250px"></a>
@@ -53,22 +55,25 @@
             <ul class="sf-menu" id="example">
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="compte.php">Mon compte</a>
-                    <ul>
-                        <li class="current"><a href="add_recette.php">Ajouter une recette</a></li>
-                    </ul></li>
+                    <?php
+                    if (!empty($_SESSION['pseudo'])) {
+                    if ($tab['type'] == "cuisinier") {
+                        echo '
+                        <ul>
+                            <li class="current"><a href="add_recette.php">Ajouter une recette</a></li>
+                            <li class="current"><a href="my_recette.php">Mes Recettes</a></li>
+                            </ul>';
+                    } else {
+                        echo "";
+                    }
+                    }
+                    ?>
+                </li>
                 <li class="current"> <a href="page.php">Recettes</a>
                     <ul>
                         <li> <a href="#">Entrée</a> </li>
                         <li class="current"> <a href="#">Plats</a>
-                            <!--
-<ul>
-<li class="current"><a href="#">Cras ornare tristique elit</a></li>
-<li><a href="#">Ut aliquam sollicitudin leo</a></li>
-<li><a href="#">Cras iaculis ultricies nulla.</a></li>
-<li><a href="#">Aliquam tincidunt </a></li>
-<li><a href="#">vestibulum nulla nec ante</a></li>
-</ul>
--->
+
                         </li>
                         <li> <a href="#">Desserts</a></li>
                         <li> <a href="#">A voir</a></li>
