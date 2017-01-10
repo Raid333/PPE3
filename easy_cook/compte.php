@@ -43,8 +43,7 @@
             //            } catch (Exception $e) {
             //                die ('Erreur : ' . $e->getMessage());
             //            }
-            $db = @mysql_connect("localhost", "root", "") or die('Error ' . $base . ' : ' . mysql_error());
-            mysql_select_db('base_beta_ec',$db);
+            include('configuration.php');
             $sqlMail = 'SELECT * FROM utilisateur WHERE pseudo = "'. $pseudoSession .'" ';
             $rs = mysql_query($sqlMail) or exit(mysql_error());
             $row = mysql_fetch_array($rs);

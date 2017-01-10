@@ -57,27 +57,19 @@
                 <li><a href="compte.php">Mon compte</a>
                     <?php
                     if (!empty($_SESSION['pseudo'])) {
-                    if ($tab['type'] == "cuisinier") {
-                        echo '
+                        if ($tab['type'] == "cuisinier") {
+                            echo '
                         <ul>
                             <li class="current"><a href="add_recette.php">Ajouter une recette</a></li>
                             <li class="current"><a href="my_recette.php">Mes Recettes</a></li>
                             </ul>';
-                    } else {
-                        echo "";
-                    }
+                        } else {
+                            echo "";
+                        }
                     }
                     ?>
                 </li>
-                <li class="current"> <a href="page.php">Recettes</a>
-                    <ul>
-                        <li> <a href="#">Entrée</a> </li>
-                        <li class="current"> <a href="#">Plats</a>
-
-                        </li>
-                        <li> <a href="#">Desserts</a></li>
-                        <li> <a href="#">A voir</a></li>
-                    </ul>
+                <li class="current"> <a href="recette.php">Recettes</a>
                 </li>
                 <li> <a href="contact.php">A propos</a> 
 

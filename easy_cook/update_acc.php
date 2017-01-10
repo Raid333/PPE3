@@ -3,8 +3,7 @@ include("head.php");
 ?>
 <div class="banner-wrap" align="center">
     <?php
-    $db = @mysql_connect("localhost", "root", "") or die('Error ' . $base . ' : ' . mysql_error());
-    mysql_select_db('base_beta_ec',$db);
+    include('configuration.php');
 
     $typeValid = $_POST['valid'];
 
