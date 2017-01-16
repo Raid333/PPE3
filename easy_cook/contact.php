@@ -27,22 +27,37 @@
 <?php
   include("head.php");
 ?>
+
 <div class="page">
   <div class="panel">
     <div class="title">
-      <h1>Pages</h1>
-      <h2>Nulla elit est, commodo id ultrices et, sollicitudin a odioras tortor ante, placerat at posuer</h2>
+      <h1> "Qui sommes-nous ?"</h1>
     </div>
-    <div class="content"> 
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
-		<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
-        <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.</p>
-        <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante. Vivamus imperdiet nibh feugiat est.</p>
-        <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante. Vivamus imperdiet nibh feugiat est.</p>
-        <p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed augue. Integer eu magna sit amet metus fermentum posuere. Morbi sit amet nulla sed dolor elementum imperdiet. Quisque fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque adipiscing eros ut libero. Ut condimentum mi vel tellus. Suspendisse laoreet. Fusce ut est sed dolor gravida convallis. Morbi vitae ante. Vivamus ultrices luctus nunc. Suspendisse et dolor. Etiam dignissim. Proin malesuada adipiscing lacus. Donec metus. Curabitur gravida.</p>
+    <div class="content">
+		<p>La Maison des Ligues (M2L) est une structure financée par le Conseil Régional de Lorraine dont l'administration est déléguée au Comité Régional Olympique et Sportif de Lorraine (CROSL), celle-ci est composée de 332 salariés.<br>
+
+        La Maison des ligues héberge la majorité des ligues sportives régionales, de la ligue de tennis (la plus grosse) à des ligues de sports qui n’ont pas d’employés permanents, comme le bowling ou la plongée sous-marine. La ligue de football occupe 2000 m² de bureaux dans la banlieue de Nancy et ne sera probablement jamais hébergée dans nos locaux. Nous hébergeons également, quelques comités départementaux, ainsi que le CROSL et sa déclinaison départementale : le CDOS (Comité Départemental Olympique et Sportif). La M2L a pour mission de fournir des espaces et des services aux différentes ligues sportives régionales</p>
+        
+    <h1>"En quoi consiste le site ?"</h1><br>
+		<p>EasyCook est un site dédié à la cuisine, elle propose ainsi aux membrex de pouvoir consulter des recettes de cuisines créés spécialement par des cuisiniers professionnel.<br>
+        EasyCook propose tout type de recette, que se soit les entrées, les plats, les desserts et même les coktails pour répondre a toute vos envies</p>
+        
+    <h1>Pour nous contacter</h1> <br>
+        
+	   <fieldset><legend><h2>Vos coordonnées :</h2></legend>
+		  <p><label for="nom">Pseudo : </label><input type="text" id="pseudo" name="pseudo" tabindex="1" /></p>
+		  <p><label for="email">Email : </label><input type="text" id="email" name="email" tabindex="2" /></p>
+	   </fieldset>
+    
+	   <fieldset><legend><h2>Votre message :</h2></legend>
+           <p><label for="objet">Objet : </label><input type="text" id="objet" name="objet" tabindex="3" /></p>
+           <p><label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="30" rows="8"></textarea></p>
+        </fieldset>
+	   <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer" /></div>
     </div>
   </div>
 </div>
+    
 <?php
   include("footer.php");
 ?>
