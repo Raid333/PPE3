@@ -1,6 +1,38 @@
 <?php
 include('head.php');
+
+
+
+
+// { Début - Première partie
+if(!empty($_POST) OR !empty($_FILES))
+{
+    $_SESSION['sauvegarde'] = $_POST ;
+    $_SESSION['sauvegardeFILES'] = $_FILES ;
+
+    $fichierActuel = $_SERVER['PHP_SELF'] ;
+    if(!empty($_SERVER['QUERY_STRING']))
+    {
+        $fichierActuel .= '?' . $_SERVER['QUERY_STRING'] ;
+    }
+
+    header('Location: ' . $fichierActuel);
+    exit;
+}
+// } Fin - Première partie
+
+// { Début - Seconde partie
+if(isset($_SESSION['sauvegarde']))
+{
+    $_POST = $_SESSION['sauvegarde'] ;
+    $_FILES = $_SESSION['sauvegardeFILES'] ;
+
+    unset($_SESSION['sauvegarde'], $_SESSION['sauvegardeFILES']);
+}
+// } Fin - Seconde partie
+
 ?>
+
 <div class="page">
     <div class="panel">
         <div class="title">
@@ -46,20 +78,60 @@ include('head.php');
         <br>
         <center>
             <?php
-            $valide = $_POST['valide'];
-            if ($valide == "valider") {
+
+            if ($_POST['valide'] == "valider") {
                 $nom = validate_input($_POST['name']);
+                $_SESSION['nomRecette'] = $nom;
                 $type = $_POST['type'];
+                $_SESSION['typeRecette'] = $type;
                 include('configuration.php');
 
                 $requeteRecherche = 'SELECT * FROM recette where type = "'. $type .'" and nom like "%'. $nom .'%"';
                 $rq = mysql_query($requeteRecherche);
-
+                echo "<table border='1' style='width:70%'>";
+                echo "<tr>";
+                echo "<th>Photo</th>";
+                echo "<th>Nom</th>";
+                echo "</tr>";
                 while ($donnee = mysql_fetch_assoc($rq)) {
-                    echo  $donnee["nom"] . "&nbsp; &nbsp" . $donnee['description'] ."<br>";
+                    echo "<tr>";
+                    echo "<td>";
+            ?>
+            <a href="page_recette.php?nom_recette=<?php echo $donnee['nom']; ?>"><img src="images/<?php echo $donnee['photo']; ?>" alt="<?php echo $donnee['photo']; ?>" width="100" height="100"></a>
+            <?php
+                    echo "</td>";
+                    echo "<td>";
+            ?>
+            <a href="page_recette.php?nom_recette=<?php echo $donnee['nom']; ?>"><?php echo $donnee["nom"]; ?></a>
+            <?php
+                    echo "</td>";
+                    echo "</tr>";
                 }
+                echo "</table>";
             } else {
+                $requeteAllRecette = 'SELECT * FROM recette';
+                $rqq = mysql_query($requeteAllRecette);
 
+                echo "<table border='1' style='width:70%'>";
+                echo "<tr>";
+                echo "<th>Photo</th>";
+                echo "<th>Nom</th>";
+                echo "</tr>";
+                while ($donnee = mysql_fetch_assoc($rqq)) {
+                    echo "<tr>";
+                    echo "<td>";
+            ?>
+            <a href="page_recette.php?nom_recette=<?php echo $donnee['nom']; ?>"><img src="images/<?php echo $donnee['photo']; ?>" alt="<?php echo $donnee['photo']; ?>" width="100" height="100"></a>
+            <?php
+                    echo "</td>";
+                    echo "<td>";
+            ?>
+            <a href="page_recette.php?nom_recette=<?php echo $donnee['nom']; ?>"><?php echo $donnee["nom"]; ?></a>
+            <?php
+                    echo "</td>";
+                    echo "</tr>";
+                }
+                echo "</table>";
             }
             ?>
         </center>
