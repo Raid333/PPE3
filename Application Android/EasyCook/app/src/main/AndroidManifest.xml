@@ -16,7 +16,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".AddActivity" />
-        <activity android:name=".RecapRecette"></activity>
+        <activity android:name=".RecapRecette" />
+        <activity android:name=".ListeEntree" />
+        <activity android:name=".ListePlat" />
+        <activity android:name=".ListeDessert"></activity>
     </application>
 
 </manifest>

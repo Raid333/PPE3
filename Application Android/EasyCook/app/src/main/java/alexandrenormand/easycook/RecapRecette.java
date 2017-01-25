@@ -21,9 +21,6 @@ public class RecapRecette extends AppCompatActivity {
                 Intent intent = new Intent(RecapRecette.this, MainActivity.class);
                 startActivity(intent);
             }
-            EditText editName = (EditText) findViewById(R.id.name_txt);
-            String text = editName.getText().toString();
-            intent.putExtra("message", text);
         });
     }
 }

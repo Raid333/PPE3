@@ -17,6 +17,7 @@ public class AddActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add);
+        setTitle("Easy Cook - Ajouter une recette");
 
         Button btn_valide = (Button) findViewById(R.id.btn_valide);
 
