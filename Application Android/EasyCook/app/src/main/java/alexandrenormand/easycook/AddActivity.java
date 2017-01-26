@@ -26,16 +26,32 @@ public class AddActivity extends AppCompatActivity {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         type_spin.setAdapter(adapter);
 
+
+        //Récupératino du champ : "Description Recette"
+
+
         btn_valide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(AddActivity.this, RecapRecette.class);
-                startActivity(intent);
+
+                //Récupére la chaine Nom Recette
                 EditText editName = (EditText) findViewById(R.id.editName);
-                //Récupére la chaine de caractère de l'objet Text (editText)
                 String name = editName.getText().toString();
-                intent.putExtra("message", name);
-                startActivityForResult(intent, 0);
+                intent.putExtra("NomRecette", name);
+
+                //Récupére le chaine Description
+                EditText editDescri = (EditText)findViewById(R.id.editDescri);
+                String DescriptionRecette = editDescri.getText().toString();
+                intent.putExtra("DescriptionRecette", DescriptionRecette);
+
+                //Récupére la valeur du spinner
+                Spinner type_spin = (Spinner) findViewById(R.id.type_spin);
+                String typeRecette = type_spin.getSelectedItem().toString();
+                intent.putExtra("TypeRecette", typeRecette);
+
+
+                startActivity(intent);
             }
 
 

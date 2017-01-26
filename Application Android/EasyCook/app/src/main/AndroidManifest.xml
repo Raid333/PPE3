@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="alexandrenormand.easycook">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +21,8 @@
         <activity android:name=".RecapRecette" />
         <activity android:name=".ListeEntree" />
         <activity android:name=".ListePlat" />
-        <activity android:name=".ListeDessert"></activity>
+        <activity android:name=".ListeDessert" />
+        <activity android:name=".AfficheRecette"></activity>
     </application>
 
 </manifest>
