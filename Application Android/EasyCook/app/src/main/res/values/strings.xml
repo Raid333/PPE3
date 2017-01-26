@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Easy Cook</string>
+
+    <string-array name="type_recette">
+
+        <item>Entrée</item>
+        <item>Plats</item>
+        <item>Dessert</item>
+
+    </string-array>
+
+</resources>
