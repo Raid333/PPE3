@@ -44,19 +44,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_valide"
-        android:layout_marginTop="98dp"
-        android:layout_below="@+id/editName"
+        android:layout_below="@+id/editDescri"
         android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:ems="10"
-        android:layout_below="@+id/editName"
-        android:layout_alignEnd="@+id/editName"
-        android:layout_marginTop="25dp"
         android:id="@+id/editDescri"
-        android:hint="Description..." />
+        android:hint="Description..."
+        android:layout_height="90dip"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/editName"
+        android:inputType="textMultiLine" />
 
 </RelativeLayout>

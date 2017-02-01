@@ -5,8 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class RecapRecette extends AppCompatActivity {
 
@@ -43,7 +43,55 @@ public class RecapRecette extends AppCompatActivity {
         type_txt.setText(TypeRecette);
 
 
+
+        //Création d'une instance de ma classe RecetteBDD
+        RecetteBDD recetteBDD = new RecetteBDD(this);
+
+        //Création d'une recette
+        Recette recette = new Recette(NomRecette, DescriptionRecette);
+
+        //On ouvre la base de données pour écrire dedans
+        recetteBDD.open();
+        //On insère la recette que l'on vient de créer
+        recetteBDD.insertRecette(recette);
+
+        //Pour vérifier que l'on a bien créé notre recette dans la BDD
+        //on extrait la recette de la BDD grâce au titre d'une recette que l'on a créé précédemment
+        Recette recetteFromBdd = recetteBDD.getRecetteWithNom(recette.getNom());
+        //Si un livre est retourné (donc si le livre à bien été ajouté à la BDD)
+        if(recetteFromBdd != null){
+            //On affiche les infos du livre dans un Toast
+            Toast.makeText(this, recetteFromBdd.toString(), Toast.LENGTH_LONG).show();
+            //On modifie le titre du livre
+            recetteFromBdd.setNom("J'ai modifié le titre du livre");
+            //Puis on met à jour la BDD
+            recetteBDD.updateRecette(recetteFromBdd.getId(), recetteFromBdd);
+        }
+
+        //On extrait la recette de la BDD grâce au nouveau nom
+        recetteFromBdd = recetteBDD.getRecetteWithNom("J'ai modifié le titre du livre");
+        //S'il existe une recette possédant ce nom dans la BDD
+        if(recetteFromBdd != null){
+            //On affiche les nouvelles informations de la recette pour vérifier que le nom de la recette a bien été mis à jour
+            Toast.makeText(this, recetteFromBdd.toString(), Toast.LENGTH_LONG).show();
+            //on supprime la recette de la BDD grâce à son ID
+            recetteBDD.removeRecetteWithID(recetteFromBdd.getId());
+        }
+
+        //On essaye d'extraire de nouveau la recette de la BDD toujours grâce à son nouveau nom
+        recetteFromBdd = recetteBDD.getRecetteWithNom("J'ai modifié le titre du livre");
+        //Si aucune recette n'est retournée
+        if(recetteFromBdd == null){
+            //On affiche un message indiquant que la recette n'existe pas dans la BDD
+            Toast.makeText(this, "la recette n'existe pas dans la BDD", Toast.LENGTH_LONG).show();
+        }
+        //Si la recette existe (mais normalement elle ne devrait pas)
+        else{
+            //on affiche un message indiquant que la recette existe dans la BDD
+            Toast.makeText(this, "Cette recette existe dans la BDD", Toast.LENGTH_LONG).show();
+        }
+
+        recetteBDD.close();
     }
-
-
 }
+
