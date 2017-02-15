@@ -79,7 +79,7 @@
   			} 
   		?>
   		<?php
-			function validate_input($input) {
+			function validate_input( $input) {
    		 return htmlspecialchars(stripslashes(trim($input)));
 		}
 	?>

@@ -37,42 +37,41 @@
             $description = validate_input($_POST['description']);
             $name_utilisateur = $_SESSION["pseudo"];
 
-            //Test pour upload les photos des recettes sur le serveurs
-
-            //            $content_dir = 'images/'; // dossier où sera déplacé le fichier
-            //
-            //            $tmp_file = $_POST['photo'];
-            //
-            //            if( !is_uploaded_file($tmp_file) )
-            //            {
-            //                exit("Le fichier est introuvable");
-            //            }
-            //
-            //            // on vérifie maintenant l'extension
-            //            $type_file = $_POST['photo'];
-            //
-            //            if( !strstr($type_file, 'jpg') && !strstr($type_file, 'jpeg') && !strstr($type_file, 'bmp') && !strstr($type_file, 'gif') && !strstr($type_file, 'png'))
-            //            {
-            //                exit("Le fichier n'est pas une image");
-            //            }
-            //
-            //            // on copie le fichier dans le dossier de destination
-            //            $name_file = $_POST['photo'];
-            //
-            //            if( !move_uploaded_file($tmp_file, $content_dir . $name_file) )
-            //            {
-            //                exit("Impossible de copier le fichier dans $content_dir");
-            //            }
-            //
-            //            echo "Le fichier a bien été uploadé";
 
 
+            
+
+
+                $nom = md5(uniqid("photo_", false));
+            $namei = "images/";
+            // Testons si le fichier a bien été envoyé et s'il n'y a pas d'erreur
+            if (isset($_FILES["$photo"]) AND $_FILES["$photo"]['error'] == 0)
+            {
+                // Testons si le fichier n'est pas trop gros
+                if ($_FILES["$photo"]['size'] <= 1000000)
+                {
+                    // Testons si l'extension est autorisée
+                    $infosfichier = pathinfo($_FILES["$photo"]['name']);
+                    $extension_upload = $infosfichier['extension'];
+                    $extensions_autorisees = array('jpg', 'jpeg', 'gif', 'png');
+                    if (in_array($extension_upload, $extensions_autorisees))
+                    {
+                        // On peut valider le fichier et le stocker définitivement
+
+                        $result = move_uploaded_file($_FILES["$photo"]['tmp_name'],$namei);
+                        if ($result) echo "Transfert réussi"; else { echo 'echec transfert';}
+
+
+                    }
+                }   
+            }
 
 
 
+echo $namei;
 
 
-            $sqlRecette = 'INSERT INTO recette (nom, type, photo, description, name_utilisateur) VALUES("'. $name .'", "'. $type .'", "'. $photo .'", "'. $description .'", "'. $name_utilisateur .'")';
+            $sqlRecette = 'INSERT INTO recette (nom, type, photo, description, name_utilisateur) VALUES("'. $name .'", "'. $type .'", "'. $nom .'", "'. $description .'", "'. $name_utilisateur .'")';
             mysql_query($sqlRecette);
         }else {
             header('Location:index.php');

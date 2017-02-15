@@ -1,6 +1,7 @@
 <?php
 include ('head.php');
 ?>
+<title>Recette : <?php echo $nomRecette; ?></title>
 <?php
 include('configuration.php');
 $nomRecette = $_GET['nom_recette'];

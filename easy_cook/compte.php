@@ -28,6 +28,98 @@
         include("head.php");    
         if (empty($_SESSION["pseudo"])) {
             header('Location:connexion.php');
+        } else if ($_SESSION['pseudo'] == "admin") {
+        ?>
+        <div class="page">
+            <div class="panel">
+                <div class="title">
+                    <h1>Compte administrateur :</h1>
+                    <h2>Comptes contenus dans la base de donnée :</h2>
+                </div>
+                <?php
+            $sqlUtilisateur = 'SELECT * FROM utilisateur where pseudo not like "admin"';
+            $sqlRecette = 'SELECT * FROM recette';
+            $rq = mysql_query ($sqlUtilisateur);
+            $rqq = mysql_query ($sqlRecette);
+
+            echo "<table border='1' style='width:70%'>";
+            echo "<tr>";
+            echo "<th>nom compte</th>";
+            echo "<th>type</th>";
+            echo "<th>action</th>";
+            echo "</tr>";
+            
+            //Boucle listant les utilisateurs dans la base
+            while ($donnee = mysql_fetch_assoc($rq)) {
+
+                echo "<tr>";
+                echo "<td>";
+
+                echo $donnee['pseudo']; 
+
+                echo "</td>";
+                echo "<td>";
+
+                echo $donnee['type']; 
+
+                echo "</td>";
+                echo "<td>";
+                ?>
+                <a href="admin.php?id_utilisateur=<?php echo $donnee['id']; ?>">SUPPRIMER</a>
+                <?php
+                echo "</td>";
+                echo "</tr>";
+
+
+            }
+            echo "</table>";
+                ?>
+                <br>
+                <div class="title">
+                    <h2>Recettes contenues dans la base de donnée :</h2>
+                </div>
+                <?php
+                ?>
+
+                <div class="title">
+
+
+                </div>
+                <?php
+            echo "<table border='1' style='width:70%'>";
+            echo "<tr>";
+            echo "<th>nom recette</th>";
+            echo "<th>type</th>";
+            echo "<th>action</th>";
+            echo "</tr>";
+
+            //Boucle listant les recettes dans la base
+            while ($donnee = mysql_fetch_assoc($rqq)) {
+
+                echo "<tr>";
+                echo "<td>";
+
+                echo $donnee['nom']; 
+
+                echo "</td>";
+                echo "<td>";
+
+                echo $donnee['type']; 
+
+                echo "</td>";
+                echo "<td>";
+                ?>
+                <a href="admin.php?id_recette=<?php echo $donnee['id']; ?>">SUPPRIMER</a>
+                <?php
+                echo "</td>";
+                echo "</tr>";
+
+
+            }
+            echo "</table>";
+                ?>
+            </div></div>
+        <?php
         } else {
         ?>
         <div class="page">
@@ -44,6 +136,8 @@
             //                die ('Erreur : ' . $e->getMessage());
             //            }
             include('configuration.php');
+
+
             $sqlMail = 'SELECT * FROM utilisateur WHERE pseudo = "'. $pseudoSession .'" ';
             $rs = mysql_query($sqlMail) or exit(mysql_error());
             $row = mysql_fetch_array($rs);
@@ -77,6 +171,10 @@
             </div>
         </div>
         <?php 
-            include("footer.php");
+
         }
+
+        include("footer.php");
+
+
         ?>

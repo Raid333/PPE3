@@ -30,7 +30,7 @@
   <div class="copyright">
     <div class="content">
       <p>© 2016 Tous droits réservés  | &nbsp;&nbsp;
-        Designed by :<a href="#"> Groupe PEE |</a>&nbsp;&nbsp;
+        Designed by :<a href="#"> Groupe PPE |</a>&nbsp;&nbsp;
         <a href="#" class="link"> Easy Cook</a></p>
     </div>
   </div>

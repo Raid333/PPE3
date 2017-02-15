@@ -79,7 +79,7 @@ if(isset($_SESSION['sauvegarde']))
         <center>
             <?php
 
-            if ($_POST['valide'] == "valider") {
+            if (isset($_POST['valide'])) {
                 $nom = validate_input($_POST['name']);
                 $_SESSION['nomRecette'] = $nom;
                 $type = $_POST['type'];

@@ -43,19 +43,21 @@
                         EasyCook propose tout type de recette, que se soit les entrées, les plats, les desserts et même les coktails pour répondre a toute vos envies</p>
 
                     <h1>Pour nous contacter</h1> <br>
-                    <form action="" method="post">
-                        <fieldset><legend><h2>Vos coordonnées :</h2></legend>
-                            <p><label for="nom">Pseudo : </label><input type="text" id="pseudo" name="pseudo" tabindex="1" /></p>
-                            <p><label for="email">Email : </label><input type="text" id="email" name="email" tabindex="2" /></p>
-                        </fieldset>
 
-                        <fieldset><legend><h2>Votre message :</h2></legend>
-                            <p><label for="objet">Objet : </label><input type="text" id="objet" name="objet" tabindex="3" /></p>
-                            <p><label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="30" rows="8"></textarea></p>
-                        </fieldset>
-                        <input type="checkbox" name="news" value="news" checked>Pour ne pas recevoir de newletters, veuillez décocher la case<br>
-                        <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer" /></div>
-                        </div>
+
+                    <form action="" method="post">
+                    <fieldset><legend><h2>Vos coordonnées :</h2></legend>
+                        <p><label for="nom">Pseudo : </label><input type="text" id="pseudo" name="pseudo" tabindex="1" required/></p>
+                        <p><label for="email">Email : </label><input type="text" id="email" name="email" tabindex="2" required/></p>
+                    </fieldset>
+
+                    <fieldset><legend><h2>Votre message :</h2></legend>
+                        <p><label for="objet">Objet : </label><input type="text" id="objet" name="objet" tabindex="3" required/></p>
+                        <p><label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="30" rows="8" required></textarea></p>
+                    </fieldset>
+                    <input type="checkbox" name="news" value="news" checked>Pour ne pas recevoir de newletters, veuillez décocher la case<br>
+                    <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer" /></div>
+            </div>
                 </div>
             </div>
             </form>
