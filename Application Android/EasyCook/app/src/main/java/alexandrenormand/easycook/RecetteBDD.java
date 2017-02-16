@@ -57,7 +57,7 @@ public class RecetteBDD {
 
     public int updateRecette(int id, Recette recette){
         //La mise à jour d'un livre dans la BDD fonctionne plus ou moins comme une insertion
-        //il faut simplement préciser quel livre on doit mettre à jour grâce à l'ID
+        //il faut simplement préciser quelle recette on doit mettre à jour grâce à l'ID
         ContentValues values = new ContentValues();
         values.put(COL_NOM, recette.getNom());
         values.put(COL_DESCRI, recette.getDescri());
@@ -75,7 +75,7 @@ public class RecetteBDD {
         return cursorToRecette(c);
     }
 
-    //Cette méthode permet de convertir un cursor en un livre
+    //Cette méthode permet de convertir un cursor en une recette
     private Recette cursorToRecette(Cursor c){
         //si aucun élément n'a été retourné dans la requête, on renvoie null
         if (c.getCount() == 0)

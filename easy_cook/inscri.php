@@ -6,7 +6,7 @@
 <?php
 	$err = false;
 ?>
-  <form method="post" action="inscription.php">
+  <form method="post" action="vue/inscription.php">
   	<table>
   		<tr>
   			<td><h1><font color="orange">Inscription</font></h1></td>
