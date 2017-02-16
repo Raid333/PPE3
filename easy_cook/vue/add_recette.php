@@ -38,7 +38,7 @@
                     <h2></h2>
                 </div>
                <table>
-                   <form method="post" action="../traitement/verif_recette.php">
+                   <form enctype="multipart/form-data" method="post" action="../traitement/verif_recette.php">
                        <tr>
                            <td>Nom de la recette : </td>
                            <td><input name="nom" type="text" required/></td>

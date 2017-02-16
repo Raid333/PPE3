@@ -135,7 +135,7 @@
             //            } catch (Exception $e) {
             //                die ('Erreur : ' . $e->getMessage());
             //            }
-            include('configuration.php');
+            include('../include/configuration.php');
 
 
             $sqlMail = 'SELECT * FROM utilisateur WHERE pseudo = "'. $pseudoSession .'" ';

@@ -13,7 +13,7 @@ $rq = mysql_fetch_assoc($rq);
     <div class="panel">
         <div class="title">
             <h1><?php echo $nomRecette; ?></h1>
-            <div class="content"> <img src="images/<?php echo $rq['photo']; ?>" height="200px" width="200px" alt="" />
+            <div class="content"> <img src="../images/<?php echo $rq['photo']; ?>" height="200px" width="200px" alt="" />
                 <h2><?php echo $rq['type']; ?></h2>
             </div>
 

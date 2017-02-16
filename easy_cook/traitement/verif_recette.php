@@ -33,46 +33,18 @@
 
             $name = validate_input($_POST['nom']);
             $type = validate_input($_POST['type']);
-            $photo = validate_input($_POST['photo']);
             $description = validate_input($_POST['description']);
             $name_utilisateur = $_SESSION["pseudo"];
 
+            $codeErreur = $_FILES['photo'] ['error'];
 
+            if($codeErreur == UPLOAD_ERR_OK) {
+                $photo = $_FILES['photo'];
 
-            
-
-
-                $nom = md5(uniqid("photo_", false));
-            $namei = "images/";
-            // Testons si le fichier a bien été envoyé et s'il n'y a pas d'erreur
-            if (isset($_FILES["$photo"]) AND $_FILES["$photo"]['error'] == 0)
-            {
-                // Testons si le fichier n'est pas trop gros
-                if ($_FILES["$photo"]['size'] <= 1000000)
-                {
-                    // Testons si l'extension est autorisée
-                    $infosfichier = pathinfo($_FILES["$photo"]['name']);
-                    $extension_upload = $infosfichier['extension'];
-                    $extensions_autorisees = array('jpg', 'jpeg', 'gif', 'png');
-                    if (in_array($extension_upload, $extensions_autorisees))
-                    {
-                        // On peut valider le fichier et le stocker définitivement
-
-                        $result = move_uploaded_file($_FILES["$photo"]['tmp_name'],$namei);
-                        if ($result) echo "Transfert réussi"; else { echo 'echec transfert';}
-
-
-                    }
-                }   
+                copy($photo['tmp_name'], "../images/" . $photo['name']);
+                $rq = mysql_query('INSERT INTO recette (nom, type, photo, description, name_utilisateur) VALUES ("'. $name .'","'. $type.'","'. $photo['name'] .'","'. $description .'", "'. $name_utilisateur .'")');
             }
 
-
-
-echo $namei;
-
-
-            $sqlRecette = 'INSERT INTO recette (nom, type, photo, description, name_utilisateur) VALUES("'. $name .'", "'. $type .'", "'. $nom .'", "'. $description .'", "'. $name_utilisateur .'")';
-            mysql_query($sqlRecette);
         }else {
             header('Location:../vue/index.php');
         }
@@ -83,7 +55,7 @@ echo $namei;
                     <h1>Votre recette a bien été ajouté !</h1>
                     <h2>Récapitulatif :</h2>
                     <br>
-                    <img src="images/<?php echo $photo; ?>" alt="<?php echo $photo; ?>" width="100" height="125">
+                    <img src="../images/<?php echo $photo['name']; ?>" alt="<?php echo $photo['name']; ?>" width="100" height="125">
                     <br><br>
                     Nom : <?php echo $name; ?>
                     <br><br>

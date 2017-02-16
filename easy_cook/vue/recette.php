@@ -97,7 +97,7 @@ if(isset($_SESSION['sauvegarde']))
                     echo "<tr>";
                     echo "<td>";
             ?>
-            <a href="page_recette.php?nom_recette=<?php echo $donnee['nom']; ?>"><img src="images/<?php echo $donnee['photo']; ?>" alt="<?php echo $donnee['photo']; ?>" width="100" height="100"></a>
+            <a href="page_recette.php?nom_recette=<?php echo $donnee['nom']; ?>"><img src="../images/<?php echo $donnee['photo']; ?>" alt="<?php echo $donnee['photo']; ?>" width="100" height="100"></a>
             <?php
                     echo "</td>";
                     echo "<td>";
@@ -121,7 +121,7 @@ if(isset($_SESSION['sauvegarde']))
                     echo "<tr>";
                     echo "<td>";
             ?>
-            <a href="page_recette.php?nom_recette=<?php echo $donnee['nom']; ?>"><img src="images/<?php echo $donnee['photo']; ?>" alt="<?php echo $donnee['photo']; ?>" width="100" height="100"></a>
+            <a href="page_recette.php?nom_recette=<?php echo $donnee['nom']; ?>"><img src="../images/<?php echo $donnee['photo']; ?>" alt="<?php echo $donnee['photo']; ?>" width="100" height="100"></a>
             <?php
                     echo "</td>";
                     echo "<td>";
