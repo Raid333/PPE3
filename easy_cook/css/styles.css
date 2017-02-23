@@ -88,6 +88,7 @@ CONTACT CLASSES
 .enquiry-form .input_text{ width:900px; height:40px; background:url(../images/bg3.jpg); text-indent:5px; border:none; color:#a5a5a6; font-family: 'Rokkitt', serif; font-size:17px;}
 .enquiry-form .message{ width:900px; height:150px; background:url(../images/bg3.jpg); text-indent:5px; border:none; color:#a5a5a6; font-family: 'Rokkitt', serif; font-size:17px;}
 .enquiry-form .button{ border:none; background:url(../images/button.png) no-repeat; width:80px; height:30px; text-align:center; margin-top:30px; font-family: 'Rokkitt', serif; font-size:17px; color:#fff; padding-right:10px;}
+#test_tableau { text-align: center;}
 
 /*-------------------------------------------------
 PORTFOLIO CLASSES

@@ -36,7 +36,7 @@
             if (!empty($_SESSION['pseudo'])) {
                 echo '<a href="../traitement/logout.php">Deconnexion</a>'; echo "&nbsp; &nbsp";
                 echo "Bienvenue : " . $_SESSION['pseudo']; 
-                $requeteType = 'SELECT type FROM utilisateur where pseudo = "'. $_SESSION['pseudo'] .'"';
+                $requeteType = 'SELECT * FROM utilisateur where pseudo = "'. $_SESSION['pseudo'] .'"';
                 $rq = mysql_query($requeteType);
                 $tab = mysql_fetch_assoc($rq);
 
@@ -63,8 +63,10 @@
                             <li class="current"><a href="../vue/add_recette.php">Ajouter une recette</a></li>
                             <li class="current"><a href="../vue/my_recette.php">Mes Recettes</a></li>
                             </ul>';
-                        } else {
-                            echo "";
+                        } else if ($tab['pseudo'] == "admin") {
+                            echo '<ul>
+                            <li class="current"><a href="../vue/admin_message.php">Messagerie</a></li>
+                            </ul>';
                         }
                     }
                     ?>

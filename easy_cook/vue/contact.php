@@ -62,6 +62,7 @@ if (isset($_SESSION['pseudo'])) {
 
 
             <form action="../traitement/traitement_message.php" method="post">
+                <input type="hidden" name="check" value="add">
                 <fieldset>
                     <legend><h2>Vos coordonnées :</h2></legend>
                     <p><label for="nom">Pseudo : </label><input type="text" id="pseudo" name="pseudo"

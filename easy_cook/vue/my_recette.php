@@ -11,11 +11,31 @@ include('../include/head.php');
             include('../include/configuration.php');
             $sqlSelectMyRecette = 'SELECT * FROM recette where name_utilisateur = "'. $pseudoSession .'"';
             $rq = mysql_query($sqlSelectMyRecette) or exit(mysql_error());
-            $tab = mysql_fetch_array($rq);
+            echo "<table border='1' style='width:70%' >";
+                echo "<tr>";
+                echo "<th>Photo</th>";
+                echo "<th>Nom</th>";
+                echo "<th>Action</th>";
+                echo "</tr>";
+                while ($donnee = mysql_fetch_assoc($rq)) {
+                    echo "<tr>";
+                    echo "<td>";
+            ?>
+            <a href="page_recette.php?nom_recette=<?= $donnee['nom']; ?>"><img src="../images/<?= $donnee['photo']; ?>" alt="<?= $donnee['photo']; ?>" width="100" height="100"></a>
+            <?php
+                    echo "</td>";
+                    echo "<td>";
+            ?>
+            <a href="page_recette.php?nom_recette=<?= $donnee['nom']; ?>"><?= $donnee["nom"]; ?></a>
+            <?php
+                    echo "</td>";
+                    echo "<td id='test_tableau'>";?>
+                    <a href=""><img src="../images/croix.png" alt="" width="25" height="25"></a>
+                    <?= "</td>";
+                    echo "</tr>";
+                }
+                echo "</table>";
 
-            while ($donnee = mysql_fetch_assoc($rq)) {
-                echo $donnee["type"] . "&nbsp; &nbsp" . $donnee["nom"] . "<br>";
-            }
 
 
 
