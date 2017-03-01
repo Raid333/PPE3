@@ -21,10 +21,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="recette.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/recette.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding>
+                <marker date="1488209807994" expanded="true" signature="2673:2753" ph="SELECT * FRO... recette" />
+                <marker date="1488209807994" expanded="true" signature="2841:2850" ph="..." />
+                <marker date="1488209807994" expanded="true" signature="3663:3684" ph="SELECT * FRO... recette" />
+                <marker date="1488209807994" expanded="true" signature="3775:3784" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="admin_message.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/admin_message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="834">
               <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               <folding>
                 <marker date="1487857041424" expanded="true" signature="1271:1292" ph="SELECT * FRO... message" />
@@ -37,58 +52,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="affiche_message.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/affiche_message.php">
+      <file leaf-file-name="verif_conn.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/traitement/verif_conn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+            <state relative-caret-position="208">
+              <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
               <folding>
-                <marker date="1487865430048" expanded="true" signature="143:195" ph="SELECT * FRO... message" />
-                <marker date="1487865430048" expanded="true" signature="963:971" ph="DELETE FROM " />
+                <marker date="1487334756239" expanded="true" signature="1441:1494" ph="SELECT pseud... utilisateur" />
+                <marker date="1487334756239" expanded="true" signature="1528:1582" ph="SELECT pseud... utilisateur" />
+                <marker date="1487334756239" expanded="true" signature="1899:1908" ph="..." />
+                <marker date="1487334756239" expanded="true" signature="1977:1986" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_acc.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/traitement/update_acc.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            <state relative-caret-position="440">
+              <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
               <folding>
-                <marker date="1487865603605" expanded="true" signature="317:401" ph="UPDATE utili... " />
-                <marker date="1487865603605" expanded="true" signature="493:504" ph="..." />
-                <marker date="1487865603605" expanded="true" signature="565:576" ph="..." />
-                <marker date="1487865603605" expanded="true" signature="907:994" ph="UPDATE utili... " />
-                <marker date="1487865603605" expanded="true" signature="1094:1105" ph="..." />
-                <marker date="1487865603605" expanded="true" signature="1177:1188" ph="..." />
-                <marker date="1487865603605" expanded="true" signature="1335:1344" ph="..." />
+                <marker date="1488211068676" expanded="true" signature="1177:1373" ph="SELECT colum... " />
+                <marker date="1488211068676" expanded="true" signature="1222:1253" ph="SELECT * FRO... recette" />
+                <marker date="1488211068676" expanded="true" signature="1768:2166" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recette.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/recette.php">
+      <file leaf-file-name="my_recette.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/my_recette.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+            <state relative-caret-position="176">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding>
-                <marker date="1487599266465" expanded="true" signature="2714:2790" ph="SELECT * FRO... recette" />
-                <marker date="1487599266465" expanded="true" signature="2894:2903" ph="..." />
-                <marker date="1487599266465" expanded="true" signature="3796:3817" ph="SELECT * FRO... recette" />
-                <marker date="1487599266465" expanded="true" signature="3924:3933" ph="..." />
+                <marker date="1488211334264" expanded="true" signature="381:450" ph="SELECT * FRO... recette" />
+                <marker date="1488211334264" expanded="true" signature="571:580" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connexion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/connexion.php">
+      <file leaf-file-name="traitement_my_recette.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/traitement/traitement_my_recette.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="352">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding>
+                <element signature="e#6#91#0#PHP" expanded="true" />
+                <marker date="1488211448510" expanded="true" signature="192:240" ph="DELETE FROM " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +110,7 @@
       <file leaf-file-name="compte.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/compte.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
+            <state relative-caret-position="-44">
               <caret line="44" column="35" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="35" />
               <folding>
                 <marker date="1487334756252" expanded="true" signature="1565:1620" ph="SELECT * FRO... utilisateur" />
@@ -109,26 +123,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_recette.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/my_recette.php">
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/traitement/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="146" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="44">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="13" selection-end-column="37" />
               <folding>
-                <marker date="1487856757592" expanded="true" signature="381:450" ph="SELECT * FRO... recette" />
-                <marker date="1487856757592" expanded="true" signature="571:580" ph="..." />
+                <marker date="1487334756230" expanded="true" signature="118:174" ph="DELETE FROM " />
+                <marker date="1487334756230" expanded="true" signature="276:324" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_recette.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/page_recette.php">
+      <file leaf-file-name="affiche_message.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/affiche_message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="2" />
+            <state relative-caret-position="308">
+              <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
               <folding>
-                <marker date="1487334756268" expanded="true" signature="195:248" ph="SELECT * FRO... recette" />
+                <marker date="1487865430048" expanded="true" signature="143:195" ph="SELECT * FRO... message" />
+                <marker date="1487865430048" expanded="true" signature="963:971" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -144,18 +159,6 @@
                 <marker date="1487865360792" expanded="true" signature="601:626" ph="DELETE FROM " />
                 <marker date="1487865360792" expanded="true" signature="601:631" ph="DELETE FROM " />
                 <marker date="1487865360792" expanded="true" signature="601:650" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-              <folding>
-                <marker date="1487865112077" expanded="true" signature="1119:1192" ph="SELECT mail utilisateur" />
               </folding>
             </state>
           </provider>
@@ -178,7 +181,6 @@
         <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/traitement_message.php" />
         <option value="$PROJECT_DIR$/affiche_recette.php" />
-        <option value="$PROJECT_DIR$/vue/index.php" />
         <option value="$PROJECT_DIR$/vue/about.php" />
         <option value="$PROJECT_DIR$/vue/inscription.php" />
         <option value="$PROJECT_DIR$/vue/connexion.php" />
@@ -190,15 +192,17 @@
         <option value="$PROJECT_DIR$/vue/add_recette.php" />
         <option value="$PROJECT_DIR$/traitement/verif_recette.php" />
         <option value="$PROJECT_DIR$/vue/page_recette.php" />
-        <option value="$PROJECT_DIR$/vue/recette.php" />
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/include/head.php" />
-        <option value="$PROJECT_DIR$/vue/my_recette.php" />
         <option value="$PROJECT_DIR$/vue/admin_message.php" />
         <option value="$PROJECT_DIR$/vue/contact.php" />
         <option value="$PROJECT_DIR$/traitement/traitement_message.php" />
         <option value="$PROJECT_DIR$/vue/affiche_message.php" />
         <option value="$PROJECT_DIR$/traitement/update_acc.php" />
+        <option value="$PROJECT_DIR$/include/head.php" />
+        <option value="$PROJECT_DIR$/vue/recette.php" />
+        <option value="$PROJECT_DIR$/vue/index.php" />
+        <option value="$PROJECT_DIR$/vue/my_recette.php" />
+        <option value="$PROJECT_DIR$/traitement/traitement_my_recette.php" />
       </list>
     </option>
   </component>
@@ -244,8 +248,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,48 +282,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easy_cook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easy_cook" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="traitement" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easy_cook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easy_cook" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easy_cook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easy_cook" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -327,7 +289,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../homeBeta" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -404,12 +366,14 @@
       <workItem from="1487246695424" duration="5698000" />
       <workItem from="1487268787804" duration="2478000" />
       <workItem from="1487598944689" duration="5885000" />
-      <workItem from="1487849473888" duration="9155000" />
+      <workItem from="1487849473888" duration="11754000" />
+      <workItem from="1487873584981" duration="1434000" />
+      <workItem from="1488194135429" duration="4867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26446000" />
+    <option name="totallyTimeSpent" value="35346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -417,7 +381,6 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -426,6 +389,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -462,19 +426,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding />
+          <folding>
+            <marker date="1487865112077" expanded="true" signature="1119:1192" ph="SELECT mail utilisateur" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -515,7 +473,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
           <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding />
+          <folding>
+            <marker date="1488211068676" expanded="true" signature="1177:1373" ph="SELECT colum... " />
+            <marker date="1488211068676" expanded="true" signature="1222:1253" ph="SELECT * FRO... recette" />
+            <marker date="1488211068676" expanded="true" signature="1768:2166" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -523,7 +485,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1540">
           <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-          <folding />
+          <folding>
+            <marker date="1487865112077" expanded="true" signature="1119:1192" ph="SELECT mail utilisateur" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -553,7 +517,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
           <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding />
+          <folding>
+            <marker date="1488211068676" expanded="true" signature="1177:1373" ph="SELECT colum... " />
+            <marker date="1488211068676" expanded="true" signature="1222:1253" ph="SELECT * FRO... recette" />
+            <marker date="1488211068676" expanded="true" signature="1768:2166" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -561,7 +529,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1487865112077" expanded="true" signature="1119:1192" ph="SELECT mail utilisateur" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -577,7 +547,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
           <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding />
+          <folding>
+            <marker date="1488211068676" expanded="true" signature="1177:1373" ph="SELECT colum... " />
+            <marker date="1488211068676" expanded="true" signature="1222:1253" ph="SELECT * FRO... recette" />
+            <marker date="1488211068676" expanded="true" signature="1768:2166" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -585,7 +559,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1487865112077" expanded="true" signature="1119:1192" ph="SELECT mail utilisateur" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -630,14 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/head2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -650,14 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traitement/verif_inscri.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -688,82 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/traitement/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <marker date="1487334756230" expanded="true" signature="118:174" ph="DELETE FROM " />
-            <marker date="1487334756230" expanded="true" signature="276:324" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1980">
           <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traitement/verif_conn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-          <folding>
-            <marker date="1487334756239" expanded="true" signature="1441:1494" ph="SELECT pseud... utilisateur" />
-            <marker date="1487334756239" expanded="true" signature="1528:1582" ph="SELECT pseud... utilisateur" />
-            <marker date="1487334756239" expanded="true" signature="1899:1908" ph="..." />
-            <marker date="1487334756239" expanded="true" signature="1977:1986" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-          <folding>
-            <marker date="1487851601560" expanded="true" signature="1803:1871" ph="SELECT type utilisateur" />
-            <marker date="1487851601560" expanded="true" signature="2844:3090" ph="..." />
-            <marker date="1487851601560" expanded="true" signature="3195:3332" ph="..." />
-            <marker date="1487851601560" expanded="true" signature="3464:3528" ph="..." />
-            <marker date="1487851601560" expanded="true" signature="3549:3614" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/connexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/compte.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="35" />
-          <folding>
-            <marker date="1487334756252" expanded="true" signature="1565:1620" ph="SELECT * FRO... utilisateur" />
-            <marker date="1487334756252" expanded="true" signature="1650:1671" ph="SELECT * FRO... recette" />
-            <marker date="1487334756252" expanded="true" signature="1813:1822" ph="..." />
-            <marker date="1487334756252" expanded="true" signature="2970:2979" ph="..." />
-            <marker date="1487334756252" expanded="true" signature="4524:4587" ph="SELECT * FRO... utilisateur" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/my_recette.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="146" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <marker date="1487856757592" expanded="true" signature="381:450" ph="SELECT * FRO... recette" />
-            <marker date="1487856757592" expanded="true" signature="571:580" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,25 +665,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/recette.php">
+    <entry file="file://$PROJECT_DIR$/vue/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        <state relative-caret-position="1430">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
           <folding>
-            <marker date="1487599266465" expanded="true" signature="2714:2790" ph="SELECT * FRO... recette" />
-            <marker date="1487599266465" expanded="true" signature="2894:2903" ph="..." />
-            <marker date="1487599266465" expanded="true" signature="3796:3817" ph="SELECT * FRO... recette" />
-            <marker date="1487599266465" expanded="true" signature="3924:3933" ph="..." />
+            <marker date="1487865112077" expanded="true" signature="1119:1192" ph="SELECT mail utilisateur" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/contact.php">
+    <entry file="file://$PROJECT_DIR$/vue/connexion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        <state relative-caret-position="110">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitement/verif_inscri.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
           <folding>
-            <marker date="1487865112077" expanded="true" signature="1119:1192" ph="SELECT mail utilisateur" />
+            <marker date="1487334756241" expanded="true" signature="627:680" ph="SELECT pseud... utilisateur" />
+            <marker date="1487334756241" expanded="true" signature="888:897" ph="..." />
+            <marker date="1487334756241" expanded="true" signature="962:971" ph="..." />
+            <marker date="1487334756241" expanded="true" signature="1461:1548" ph="INSERT INTO utilisateur... " />
+            <marker date="1487334756241" expanded="true" signature="1708:1717" ph="..." />
+            <marker date="1487334756241" expanded="true" signature="1799:1808" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitement/update_acc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <marker date="1487865603605" expanded="true" signature="317:401" ph="UPDATE utili... " />
+            <marker date="1487865603605" expanded="true" signature="493:504" ph="..." />
+            <marker date="1487865603605" expanded="true" signature="565:576" ph="..." />
+            <marker date="1487865603605" expanded="true" signature="907:994" ph="UPDATE utili... " />
+            <marker date="1487865603605" expanded="true" signature="1094:1105" ph="..." />
+            <marker date="1487865603605" expanded="true" signature="1177:1188" ph="..." />
+            <marker date="1487865603605" expanded="true" signature="1335:1344" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+          <folding>
+            <marker date="1487870707723" expanded="true" signature="1802:1870" ph="SELECT type utilisateur" />
+            <marker date="1487870707723" expanded="true" signature="2843:3089" ph="..." />
+            <marker date="1487870707723" expanded="true" signature="3194:3331" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/affiche_message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+          <folding>
+            <marker date="1487865430048" expanded="true" signature="143:195" ph="SELECT * FRO... message" />
+            <marker date="1487865430048" expanded="true" signature="963:971" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitement/verif_conn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+          <folding>
+            <marker date="1487334756239" expanded="true" signature="1441:1494" ph="SELECT pseud... utilisateur" />
+            <marker date="1487334756239" expanded="true" signature="1528:1582" ph="SELECT pseud... utilisateur" />
+            <marker date="1487334756239" expanded="true" signature="1899:1908" ph="..." />
+            <marker date="1487334756239" expanded="true" signature="1977:1986" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/recette.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <marker date="1488209807994" expanded="true" signature="2673:2753" ph="SELECT * FRO... recette" />
+            <marker date="1488209807994" expanded="true" signature="2841:2850" ph="..." />
+            <marker date="1488209807994" expanded="true" signature="3663:3684" ph="SELECT * FRO... recette" />
+            <marker date="1488209807994" expanded="true" signature="3775:3784" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+          <folding>
+            <marker date="1488211068676" expanded="true" signature="1177:1373" ph="SELECT colum... " />
+            <marker date="1488211068676" expanded="true" signature="1222:1253" ph="SELECT * FRO... recette" />
+            <marker date="1488211068676" expanded="true" signature="1768:2166" ph="..." />
           </folding>
         </state>
       </provider>
@@ -813,9 +788,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/traitement/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <marker date="1487334756230" expanded="true" signature="118:174" ph="DELETE FROM " />
+            <marker date="1487334756230" expanded="true" signature="276:324" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vue/admin_message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="834">
           <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           <folding>
             <marker date="1487857041424" expanded="true" signature="1271:1292" ph="SELECT * FRO... message" />
@@ -827,29 +813,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/affiche_message.php">
+    <entry file="file://$PROJECT_DIR$/vue/compte.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+        <state relative-caret-position="-44">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="35" />
           <folding>
-            <marker date="1487865430048" expanded="true" signature="143:195" ph="SELECT * FRO... message" />
-            <marker date="1487865430048" expanded="true" signature="963:971" ph="DELETE FROM " />
+            <marker date="1487334756252" expanded="true" signature="1565:1620" ph="SELECT * FRO... utilisateur" />
+            <marker date="1487334756252" expanded="true" signature="1650:1671" ph="SELECT * FRO... recette" />
+            <marker date="1487334756252" expanded="true" signature="1813:1822" ph="..." />
+            <marker date="1487334756252" expanded="true" signature="2970:2979" ph="..." />
+            <marker date="1487334756252" expanded="true" signature="4524:4587" ph="SELECT * FRO... utilisateur" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/traitement/update_acc.php">
+    <entry file="file://$PROJECT_DIR$/traitement/traitement_my_recette.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        <state relative-caret-position="352">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
-            <marker date="1487865603605" expanded="true" signature="317:401" ph="UPDATE utili... " />
-            <marker date="1487865603605" expanded="true" signature="493:504" ph="..." />
-            <marker date="1487865603605" expanded="true" signature="565:576" ph="..." />
-            <marker date="1487865603605" expanded="true" signature="907:994" ph="UPDATE utili... " />
-            <marker date="1487865603605" expanded="true" signature="1094:1105" ph="..." />
-            <marker date="1487865603605" expanded="true" signature="1177:1188" ph="..." />
-            <marker date="1487865603605" expanded="true" signature="1335:1344" ph="..." />
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <marker date="1488211448510" expanded="true" signature="192:240" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/my_recette.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <marker date="1488211334264" expanded="true" signature="381:450" ph="SELECT * FRO... recette" />
+            <marker date="1488211334264" expanded="true" signature="571:580" ph="..." />
           </folding>
         </state>
       </provider>

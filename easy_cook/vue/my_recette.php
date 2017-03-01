@@ -30,7 +30,7 @@ include('../include/head.php');
             <?php
                     echo "</td>";
                     echo "<td id='test_tableau'>";?>
-                    <a href=""><img src="../images/croix.png" alt="" width="25" height="25"></a>
+                    <a href="../traitement/traitement_my_recette.php?id_recette=<?= $donnee['id']; ?>"><img src="../images/croix.png" alt="" width="25" height="25"></a>
                     <?= "</td>";
                     echo "</tr>";
                 }
