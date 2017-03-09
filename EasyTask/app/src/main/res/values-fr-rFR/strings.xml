@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Easy Task</string>
+
+    <string name="btn_delete">Supp</string>
+
+    <string name="action_add">Ajouter une tâche</string>
+
+    <string name="btn_add">Ajouter</string>
+
+    <string name="what_do_you_want">Que voulez-vous faire ?</string>
+
+    <string name="btn_cancel">Abandonner</string>
+
+    <string name="title_new_task">Ajouter une nouvelle tâche</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+
+    <string name="btn_add">Add</string>
+
+    <string name="btn_delete">Delete</string>
+
+    <string name="action_add">Add New task</string>
+
+    <string name="title_new_task">Add a new task</string>
+
+    <string name="what_do_you_want">What do you want to do ?</string>
+
+    <string name="btn_cancel">Cancel</string>
+</resources>
