@@ -1,0 +1,7 @@
+#Mon Jan 30 18:33:07 CET 2017
+base.0=C\:\\Users\\Alexandre\\AndroidStudioProjects\\EasyCook\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8ad8a4b1479276c28b63e75277c5492ad53e6c91
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Alexandre\\AndroidStudioProjects\\EasyCook\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d775bf546c26f8e63ab8b3075c928f61a2a72bff\\classes.dex
+base.1=C\:\\Users\\Alexandre\\AndroidStudioProjects\\EasyCook\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d775bf546c26f8e63ab8b3075c928f61a2a72bff
+file.0=C\:\\Users\\Alexandre\\AndroidStudioProjects\\EasyCook\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8ad8a4b1479276c28b63e75277c5492ad53e6c91\\classes.dex

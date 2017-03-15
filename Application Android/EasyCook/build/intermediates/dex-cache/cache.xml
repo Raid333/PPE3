@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_23602245cc24f0da8b1a67d7340ec70b09d341fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_fa569e0c75dded9c6e8f6421a46068ba5985c969\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c9014c76ec56b0920c358f96036a79e35ce00898\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_7982cd954aa00300a9950d0fbc9bddc5ed115204\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_75e98ba0a8ae05c7736d5eaad45bd006a1049121\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ecd59a15e8e1109bfc87e6a9a87eff4dfc56e41a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_8d6dfa6df7aaa0301c296c26572c20118c9eeb32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ed580406dda9b88e4bbd30d0553df0eda72fbf30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_8230aec422bce2a82be12fc42a6a75ea27f62018\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_efcdb1d5c9f47d252b5ed18ec366f8727461b2da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_2f7581dd57afff05c044ac1218612dd121e45daf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5d0a1b9762fa5421b591b555290851ea4d467523">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d775bf546c26f8e63ab8b3075c928f61a2a72bff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_5aaedf8bd742125b2260a714ef3cb69c8c24fd63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_cbbfd84bd830c537177ac78e4406ae2e4869f8a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_cd57bbb7f09284695bf15e8b5822993b5d620f38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_8e62a5a98ab43d5280c347e3689cba9668935eb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bdbfdac57f876ec634a812b4e764e8cd126257b9">
+        <dex dex="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8ad8a4b1479276c28b63e75277c5492ad53e6c91\classes.dex" />
+    </item>
+
+</items>

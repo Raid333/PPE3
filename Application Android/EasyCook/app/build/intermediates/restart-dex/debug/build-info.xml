@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="24"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="184572515973752"
+    token="-1489790275308981607"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1124" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="744" />
+    <task
+        name="verifier"
+        duration="294" />
+
+    <artifact
+        location="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="184572515973752"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Alexandre\AndroidStudioProjects\EasyCook\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

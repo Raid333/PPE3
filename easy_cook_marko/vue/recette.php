@@ -97,14 +97,14 @@ if (!isset($_SESSION['pseudo'])) {
             echo "<tr>";
             echo "<td>";
             ?>
-            <a href="page_recette.php?nom_recette=<?php echo $donnee['nom']; ?>"><img
+            <a href="page_recette.php?id_recette=<?php echo $donnee['id']; ?>"><img
                     src="../images/<?php echo $donnee['photo']; ?>" alt="<?php echo $donnee['photo']; ?>"
                     width="100" height="100"></a>
             <?php
             echo "</td>";
             echo "<td>";
             ?>
-            <a href="page_recette.php?nom_recette=<?php echo $donnee['nom']; ?>"><?php echo $donnee["nom"]; ?></a>
+            <a href="page_recette.php?id_recette=<?php echo $donnee['id']; ?>"><?php echo $donnee["nom"]; ?></a>
             <?php
             echo "</td>";
             echo "</tr>";
@@ -123,14 +123,14 @@ if (!isset($_SESSION['pseudo'])) {
             echo "<tr>";
             echo "<td>";
             ?>
-            <a href="page_recette.php?nom_recette=<?php echo $donnee['nom']; ?>"><img
+            <a href="page_recette.php?id_recette=<?php echo $donnee['id']; ?>"><img
                     src="../images/<?php echo $donnee['photo']; ?>" alt="<?php echo $donnee['photo']; ?>"
                     width="100" height="100"></a>
             <?php
             echo "</td>";
             echo "<td>";
             ?>
-            <a href="page_recette.php?nom_recette=<?php echo $donnee['nom']; ?>"><?php echo $donnee["nom"]; ?></a>
+            <a href="page_recette.php?id_recette=<?php echo $donnee['id']; ?>"><?php echo $donnee["nom"]; ?></a>
             <?php
             echo "</td>";
             echo "</tr>";

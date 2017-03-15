@@ -15,7 +15,7 @@ $rqq = mysql_fetch_assoc($rq);
                 <h1><?php echo "Objet message : " . '"' . $rqq['objet'] . '"'; ?></h1>
                 <h2>Message : </h2>
                 <p><?= $rqq['contenu']; ?></p><br>
-                <h3>Expéditeur : <?= $rqq['envoyeur']; ?></h3>
+                <h2>Expéditeur : <?= $rqq['envoyeur']; ?></h2>
 
 
             </div>

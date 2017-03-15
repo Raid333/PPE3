@@ -21,12 +21,12 @@ include('../include/head.php');
                     echo "<tr>";
                     echo "<td>";
             ?>
-            <a href="page_recette.php?nom_recette=<?= $donnee['nom']; ?>"><img src="../images/<?= $donnee['photo']; ?>" alt="<?= $donnee['photo']; ?>" width="100" height="100"></a>
+            <a href="page_recette.php?id_recette=<?= $donnee['id']; ?>"><img src="../images/<?= $donnee['photo']; ?>" alt="<?= $donnee['photo']; ?>" width="100" height="100"></a>
             <?php
                     echo "</td>";
                     echo "<td>";
             ?>
-            <a href="page_recette.php?nom_recette=<?= $donnee['nom']; ?>"><?= $donnee["nom"]; ?></a>
+            <a href="page_recette.php?id_recette=<?= $donnee['id']; ?>"><?= $donnee["nom"]; ?></a>
             <?php
                     echo "</td>";
                     echo "<td id='test_tableau'>";?>
