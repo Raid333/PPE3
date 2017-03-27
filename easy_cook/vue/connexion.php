@@ -25,7 +25,7 @@ $_SESSION['verif_c'] = 1;
     </form>
 -->
 <form action="../traitement/verif_conn.php" method="post">
-  <h2><span></span> Connexion </h2>
+  <h3><span></span> Connexion </h3>
   <span> </span>
   <input type="text" placeholder="Pseudo" name="pseudo" required/>
   <span></span>

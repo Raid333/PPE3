@@ -25,7 +25,7 @@
 
     </head>
     <div class="box">
-        <div class="panel">
+        <div class="panel1">
 
 
             <?php 
@@ -35,7 +35,7 @@
             session_start(); 
             if (!empty($_SESSION['pseudo'])) {
                 echo '<a href="../traitement/logout.php">Deconnexion</a>'; echo "&nbsp; &nbsp";
-                echo "Bienvenue : " . $_SESSION['pseudo'];
+                echo '<span style="color: white;"> Bienvenue : ' . $_SESSION['pseudo'] . '</span>';
                 $requeteType = 'SELECT * FROM utilisateur where pseudo = "'. $_SESSION['pseudo'] .'"';
                 $rq = mysql_query($requeteType);
                 $tab = mysql_fetch_assoc($rq);

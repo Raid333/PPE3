@@ -7,7 +7,7 @@ session_start();
 ?>
 <div class="banner-wrap" align="center">
     <form action="../traitement/verif_inscri.php" method="post">
-        <h2><span></span> Inscription </h2>
+        <h3><span></span> Inscription </h3>
         <br><br>
         <input type="text" placeholder="Pseudo" name="pseudo" required/>
         <br><br>
@@ -15,7 +15,7 @@ session_start();
         <br><br>
         <input type="password" placeholder="Mot de passe" name="passe" required/>
         <br>
-        Vous êtes ?
+        <h3>Vous êtes ?</h3>
         <select name="type">
             <option value="..."></option>
             <option value="utilisateur">Utilisateur</option>

@@ -2,12 +2,14 @@
 GLOBALS CLASSES 
 -------------------------------------------------*/
 *{padding:0; margin:0;}
-body{font-family: 'Rokkitt', serif; font-size:17px; background:#e7e2cf; color:#858175;}
+body{font-family: 'Rokkitt', serif; font-size:17px; background: url(../images/bk.jpg) no-repeat center fixed;    -webkit-background-size: cover; 
+  background-size: cover;  color:#858175;}
 img{border:none;}
-h1{ font-family: 'Lobster Two', cursive; font-size:24px; color:#446396; font-weight:normal;}
-h2{ font-family: 'Rokkitt', serif; font-size:21px; color:#d65a3d; font-weight:normal;}
-a{text-decoration:none; color:#385074;}
-a:hover{color:#b34a30;}
+h1{ font-family: 'Lobster Two', cursive; font-size:24px; color:#555; font-weight:normal;}
+h2{ font-family: 'Rokkitt', serif; font-size:21px; color:#403C3C; font-weight:normal;}
+h3{ font-family: 'Rokkitt', serif; font-size:21px; color:white; font-weight:normal;}
+a{text-decoration:none; color:white;}
+a:hover{color:#999;}
 /*-------------------------------------------------
 GENERAL CLASSES
 -------------------------------------------------*/
@@ -29,13 +31,14 @@ GENERAL CLASSES
 HEADER CLASSES
 -------------------------------------------------*/
 .header-wrap{ width:960px; margin:0px auto 50px auto;}
-.logo{ margin:0 auto; width:300px; margin-top:40px; margin-bottom:40px;}
+.logo{ margin:0 auto; width:300px; margin-top:0px; margin-bottom:40px;}
 .logo h1{ font-size:54px; color:#446396; text-align:center;}
 /*-------------------------------------------------
 PANEL CLASSES
 -------------------------------------------------*/
 
 .panel{overflow:hidden; background: url(../images/bg3.jpg); padding:30px;}
+.panel1{overflow:hidden; padding:30px;}
 .title{ margin-bottom:20px; margin-top:15px;}
 .content p{ padding-bottom:10px;}
 .content img{margin-right:30px; float:left;}
@@ -125,7 +128,7 @@ FOOTER CLASSES
 
 .copyright-wrap{ overflow:hidden;}
 .copyright{width:960px; margin:0 auto; padding-top:40px; padding-bottom:20px;}
-.copyright .content p{ color:#b94d32; font-size:17px;}
-.copyright .content p a.link{ text-decoration:none; color:#b94d32;}
-.copyright .content p a.link:hover{color:#385074;}
+.copyright .content p{ color:white; font-size:17px;}
+.copyright .content p a.link{ text-decoration:none; color:aliceblue;}
+.copyright .content p a.link:hover{color:white;}
 

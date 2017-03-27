@@ -50,10 +50,10 @@ catch (Exception $e) {die("L'accès à la base de donnée est impossible.");}
 $requettePseudo = $bdd->query("SELECT pseudo FROM utilisateur WHERE pseudo='$pseudo'");
 $requettePasse = $bdd->query("SELECT pseudo FROM utilisateur WHERE passe='$cryptage'");
 
-$check_pseudo = $requettePseudo->fetch(PDO::FETCH_ASSOC);
-$check_passe = $requettePasse->fetch(PDO::FETCH_ASSOC);
+$check_pseudo = $requettePseudo->fetch(PDO::FETCH_BOUND);
+$check_passe = $requettePasse->fetch(PDO::FETCH_BOUND);
 
-if ($check_pseudo == '1' || $check_pseudo > '1' && $check_passe == '1' || $check_passe > '1') {
+if ($check_pseudo == 'TRUE' && $check_passe == 'TRUE') {
     $_SESSION['log'] = 1;
     header('Location:../vue/index.php');
     

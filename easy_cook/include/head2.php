@@ -25,7 +25,7 @@
 
 </head>
 <div class="box">
-<div class="panel">
+<div class="panel1">
 
 <a href="../vue/inscription.php">Inscription</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
